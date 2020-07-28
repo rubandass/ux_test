@@ -33,3 +33,7 @@ b)
 
 6.Help and documentation
 - Eventhough it is simple to use, it doesn't have any help document.
+
+7.Consistency and standards
+- Form is in middle postion of page, but rest of the contents are left aligned.
+- Buttons in the form are left aligned, but should be right aligned to follow normal standards.
