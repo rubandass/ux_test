@@ -1,0 +1,35 @@
+Violation:
+1.Match between system and the real world
+- If we input without '@' symbol for the email field, the following error message is displayed.
+"Error #4500: Value needs to comply with regular expression."
+- The message is not understandable for user.(Not real world error message)
+
+2.User control and freedom
+a)
+- There is no use of having "Cancel" button.
+- It's not doing any operation.
+- It's not as dialog.
+b)
+- Click on "Information" button
+- Then modal dialog doesn't have any "Close" options (buttons or close icons)
+
+3.Visibility of system status
+a)
+- Click on "Information" button
+- Input email address for signup.(valid email or invalid email)
+- It doesn't display any useful message to the user (User doesn't know what the system is doing)
+b)
+- Enter valid details in the form and click "Send" button.
+- The form is not closed or system doesn't display any messages to user.
+
+4.Flexibility and efficiency of use
+- "Tab" key is not working in the form input fields
+- "Information" button is not highlighted when focus is on the button.
+
+5.Help users recognize, diagnose, and recover from errors
+- In the form, input without any details and click "Send" button.
+- Then it displays generic error message.
+- It doesn't display what is wrong or where the problem is.
+
+6.Help and documentation
+- Eventhough it is simple to use, it doesn't have any help document.
